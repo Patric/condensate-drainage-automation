@@ -1,0 +1,37 @@
+<cir f="1" ts="0.000005" ic="10.20027730826997" cb="50" pb="50" vr="5" mts="5e-11">
+  <rlm nm="relay-12v-automotive" f="0" in="0.2" ron="0.05" rof="1000000" on="0.02" of="0.02" coR="80" sw="0.005" cs="0" sb="1" pd="1" />
+  <rl x="688 80 688 144" f="8" mo="relay-12v-automotive" i="0.016267224092176433" ip="0" />
+  <v x="432 16 512 16" f="16" wf="0" maxv="12" />
+  <x x="669 75 682 93" f="0" si="12" te="30\n" />
+  <x x="730 79 761 82" f="0" si="12" te="86 (+)" />
+  <x x="727 152 755 155" f="0" si="12" te="85 (-)" />
+  <x x="689 152 702 155" f="0" si="12" te="87" />
+  <x x="616 150 664 153" f="0" si="12" te="87a (NC)" />
+  <Fuse x="592 16 512 16" f="0" re="0.02" i2="60" he="0" bl="false" />
+  <s x="960 16 880 16" f="4" p="1" lab="Górny pływak" />
+  <w x="592 16 688 16" f="0" />
+  <w x="960 16 960 48" f="0" />
+  <w x="960 48 928 48" f="0" />
+  <w x="720 48 720 80" f="0" />
+  <w x="688 16 880 16" f="0" />
+  <w x="688 80 688 16" f="0" />
+  <s x="1040 224 960 224" f="4" lab="Dolny pływak" />
+  <w x="720 144 720 224" f="0" />
+  <w x="720 224 960 224" f="0" />
+  <w x="704 144 704 176" f="0" />
+  <w x="560 176 704 176" f="0" />
+  <w x="800 48 720 48" f="0" />
+  <w x="928 176 928 48" f="0" />
+  <x x="934 102 1049 135" f="0" si="7" te="Podtrzymanie (kiedy górny pływak \nopadnie pompa musi działać \naż poziom wody opadnie do dolnego \npływaka" />
+  <w x="800 176 928 176" f="0" />
+  <d x="800 176 800 48" f="0" mo="default" />
+  <x x="805 66 916 99" f="0" si="7" te="Po odcięciu masy napięcie \nskoczy na 85 - dioda wytraci \nto w wewnętrznej pętli i zapobiegnie\n potencjalnej iskrze na pływaku" />
+  <w x="1040 224 1040 288" f="0" />
+  <w x="1040 288 432 288" f="0" />
+  <w x="432 288 432 176" f="0" />
+  <DCMotor x="432 176 560 176" f="0" in="0.005" rs="2" k="0.03" kb="0.03" j="0.001" b="0.002" gr="1" ta="0" />
+  <w x="432 176 432 16" f="0" />
+  <w x="704 176 800 176" f="0" />
+  <w x="928 48 800 48" f="0" />
+  <x x="432" y="320" f="0" si="8" te="PARAMETRY: 12 V DC; przekaźnik: cewka 80 ohm (~150 mA); pompa DC: L=5 mH, R=2 ohm, K=Kb=0.03, J=0.001, b=0.002; bezpiecznik CircuitJS: I²t=60 A²s, R=0.02 ohm. W układzie fizycznym: bezpiecznik samochodowy 5 A lub dobrany do tabliczki pompy." />
+</cir>
